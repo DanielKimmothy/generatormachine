@@ -15,7 +15,7 @@ let object3
 
 let description
 
-document.getElementById("emotionButton").onclick = function(){
+document.getElementById("emotionSubmit").onclick = function(){
     emotion1 = document.getElementById("emotion1").value
     emotion2 = document.getElementById("emotion2").value
 
@@ -35,5 +35,6 @@ document.getElementById("emotionButton").onclick = function(){
     description = document.getElementById("description").value
 
     document.getElementById("emotionp").innerHTML = "I " + emotion1 + " you, " + name + ". All my life, you always tried to " + ftv1 + object1 + ". And sometimes I even " + ftv2 + object2 + ". I really think that you are a " + description + ", always " + ftv3 + object3 + ". I " + ftv4 + " in " + emotion2 + " when you " + ftv5 + " Anyway I hope you " + ftv6 + ". Bye!"
+    alert("WORKING")
 }
 
