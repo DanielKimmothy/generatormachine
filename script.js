@@ -1,5 +1,5 @@
 let for_against
-// If against, false, if for, true.
+// If against, false, if for, true. Does this work?
 document.getElementById("pineappleSubmit").onclick = function(){
     if (document.getElementById("foragainst").value == "for"){
         for_against = true
